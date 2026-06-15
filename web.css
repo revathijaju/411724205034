@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(min-width:1024px){
+    nav{
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+video{
+    width: 50vw;
+    padding: 20px;
+    background-color: green;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+}
+
+.grid div{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width:600px){
+    .grid{
+        grid-template-columns: 50% 50%;
+    }
+}
