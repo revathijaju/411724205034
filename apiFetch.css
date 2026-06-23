@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    color: #8A2BE2;
+}
+
+button{
+    background-color: #FF00CC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #00C6FF;
+}
+
+#status{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #7B2FF7;
+}
+
+#result{
+    margin-top: 20px;
+}
+
+.user{
+    border: 2px solid #00C6FF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
