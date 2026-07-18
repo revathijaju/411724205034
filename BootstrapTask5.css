@@ -1,0 +1,36 @@
+.hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 22px;
+    margin:20px 0;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+footer i{
+    cursor:pointer;
+}
+
+footer i:hover{
+    color:gold;
+}
